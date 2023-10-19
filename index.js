@@ -13,7 +13,7 @@ if(name.toLowerCase().trim() !=='alex'){
     number=parseInt(number);
  if(number >=0 && number <=10000){
     alert('все отлично');
-     alert('cколько осталось?');
+    alert('cколько осталось?');
  alert('сколько снял?')
  }else{
     alert('Недостаточно средств')
