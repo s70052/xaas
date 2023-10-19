@@ -24,10 +24,8 @@ if(name.toLowerCase().trim() !=='alex'){
 
 // if (a.charAt(0).toLowerCase()==="a"){
 //     let old =prompt('Сколько вам лет ?');
-//     old=parseInt(old);
 //     if (old >=20 && old <=40){
 //         let money =prompt("Сколько у вас денег ?")
-//         money=parseInt(money);
 //         if(money >=100){
 //             let how_much=prompt('Сколько вас ?')
 //             if(how_much <=10){
