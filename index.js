@@ -1,38 +1,11 @@
-let money =10000
-let name =prompt('Введите ваше имя');
-if(name.toLowerCase().trim() !=='alex'){
-    alert('Пользователь не найден');
-} else{
-    let num =prompt('номер счета ?');
-  num=parseInt(num);
+let nums =[1,2,3,4,5,6,7,8,9]
 
-    if(num !== 7777){
-        alert('Пользователь не найден');
-    }else{
-    let number =prompt('Сколько обналичить ?');
-    number=parseInt(number);
- if(number >=0 && number <=10000){
-    alert('все отлично');
-    alert('cколько осталось?');
- alert('сколько снял?')
- }else{
-    alert('Недостаточно средств')
- } 
-}
-}
-// let a =prompt("введите вашу первую букву");
+let evens=nums.filter(num=>num%2===0)
+let odds=nums.filter(num=>num%2!==0)
+console.log(evens)
+console.log(odds)
 
-// if (a.charAt(0).toLowerCase()==="a"){
-//     let old =prompt('Сколько вам лет ?');
-//     if (old >=20 && old <=40){
-//         let money =prompt("Сколько у вас денег ?")
-//         if(money >=100){
-//             let how_much=prompt('Сколько вас ?')
-//             if(how_much <=10){
-//                 alert('добро пожаловать')
-//             }else{
-//                 alert('dosvidos')
-//             }
-//         }
-//     }
-// }
+let names=['sardor',"tangir","alla","amira","ruslan","daler"]
+
+let evenss=names.filter(names=>names.length%2===0)
+console.log(evenss)
